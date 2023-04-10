@@ -23,3 +23,11 @@ public class Solution {
 }
 //List를 사용하여 arr의 첫번째 원소를 무조건 추가시켜준다.
 //if문을 통해 이전 원소와 다음 원소가 다르면 담고 같으면 담지 않는 식을 추가해줌 
+
+
+////        Set<Integer> arrSet = new LinkedHashSet<>();
+////        for (int i = 0; i < arr.length; i++) {
+////            arrSet.add(arr[i]);
+////        }
+////        List<Integer> SetToList = new ArrayList<Integer>(arrSet);
+// 이거를 썼지만 Hashset은 중복값 자체를 뽑지 않음. 또 get으로 받을 수 없음
